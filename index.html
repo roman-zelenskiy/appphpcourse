@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appphpcourse - Создание веб-приложений на PHP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="container_main container">
+            <h1 class="logo">
+                <a href="#">Appphpcourse</a>
+            </h1>
+            <div class="content_main d-sm-flex justify-content-between align-items-center">
+                <div class="left_box align-items-start d-flex flex-column justify-content-around">
+                    <p class="count_register"><span class="bold">145 371</span> уже зарегистрированы</p>
+                    <h2 class="main_title">
+                        Создание веб-приложений на PHP
+                    </h2>
+                    <div class="text_main">
+                        <p>Доступна финансовая помощь</p>
+                        <p class="text_teachers">Преподаватели: Charles Russell Severance</p>
+                    </div>
+                    <button type="button"
+                        class="align-self-stretch align-self-sm-start btn btn-primary register_course_btn"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Начать учиться
+                    </button>
+                    <ul
+                        class="dop_info_main w-100 text-center t-sm-left d-flex flex-column align-items-stretch flex-sm-row ">
+                        <li>Опыт не требуется</li>
+                        <li>30 ч. (приблизительно)</li>
+                        <li>Учитесь в удобном темпе</li>
+                    </ul>
+                </div>
+                <div class="img_box d-none d-sm-flex flex-column align-items-end">
+                    <div class="img_text">
+                        <div class="tex_on_img">
+                            <p>Ознакомьтесь с основами и узнайте важную информацию</p>
+                        </div>
+                        <img src="./assets/img/sale_img.svg" alt="">
+                    </div>
+                    <img class="php_title_img" src="./assets/img/php_title.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="ticker-wrapper">
+        <ul class="ticker-list">
+            <li>Hypertext Preprocessor (PHP)</li>
+            <li>HTML</li>
+            <li>Cascading Style Sheets (CSS)</li>
+        </ul>
+    </div>
+    <section class="section about_project" id="about">
+        <div class="container container_about_project">
+            <h2 class="title_section">О проекте</h2>
+            <h4 class="sub_title_section">Получайте профильные знания по нужным предметам</h4>
+            <p class="text_section">Этот курс входит в специализацию ''Специализация Web Applications for Everybody'
+                Когда вы зарегистрируетесь на этот курс, то также будете зарегистрированы на эту специализацию.</p>
+            <ul class="about_list">
+                <li>Узнавайте о новых концепциях у отраслевых экспертов</li>
+                <li>Получите базовые знания о предмете или инструменте</li>
+                <li>Развивайте профессиональные навыки с помощью практических проектов</li>
+                <li>Получите профессиональный сертификат, ссылкой на который можно поделиться</li>
+            </ul>
+        </div>
+    </section>
+    <section class="modules_section section" id="program_course">
+        <div class="container container_modules_section">
+            <h2 class="title_section">Программа курса</h2>
+            <p class="text_section">В этом курсе вы изучите базовую структуру веб-приложения и то, как веб-браузер
+                взаимодействует с веб-сервером. Вы
+                познакомитесь с циклом запрос/ответ, включая GET/POST/Redirect. Вы также получите начальное
+                представление о языке
+                гипертекстовой разметки (HTML), а также о базовом синтаксисе и структурах данных языка PHP, переменных,
+                логике,
+                итерации, массивах, обработке ошибок, суперглобальных переменных и других элементах. Знакомство с
+                каскадными таблицами
+                стилей (CSS) позволит вам придать стиль разметке веб-страниц. Наконец, вы получите навыки и знания для
+                установки и
+                использования интегрированной среды PHP/MySQL, такой как XAMPP или MAMP.
+            </p>
+            <div class="program_course row">
+                <div class="program_item col-12 col-sm-6">
+                    <div class="header_module d-flex flex-sm-column">
+                        <p class="number_module">[01]</p>
+                        <h4 class="title_module">[Введение в динамический веб-контент]</h4>
+                    </div>
+                    <p class="desc_module">Мы рассмотрим базовую структуру веб-приложения и то, как веб-браузер
+                        взаимодействует с веб-сервером. Мы изучим цикл
+                        "запрос-ответ", который лежит в основе протокола передачи гипертекста (HTTP).</p>
+                </div>
+                <div class="program_item col-12 col-sm-6">
+                    <div class="header_module d-flex flex-sm-column">
+                        <p class="number_module">[02]</p>
+                        <h4 class="title_module">[Язык разметки гипертекста (HTML)]</h4>
+                    </div>
+                    <p class="desc_module">Мы кратко рассмотрим основы языка гипертекстовой разметки (HTML), который
+                        представляет собой разметку для веб-страниц.
+                        Мы надеемся, что вы уже имеете некоторый опыт работы с HTML, и это будет в основном обзор.</p>
+                </div>
+                <div class="program_item col-12 col-sm-6">
+                    <div class="header_module d-flex flex-sm-column">
+                        <p class="number_module">[03]</p>
+                        <h4 class="title_module">[Каскадные таблицы стилей (CSS)]</h4>
+                    </div>
+                    <p class="desc_module">Мы кратко рассмотрим основы каскадных таблиц стилей (CSS), которые позволяют
+                        нам изменять стиль разметки веб-страниц.</p>
+                </div>
+                <div class="program_item col-12 col-sm-6">
+                    <div class="header_module d-flex flex-sm-column">
+                        <p class="number_module">[04]</p>
+                        <h4 class="title_module">[Установка PHP и SQL]</h4>
+                    </div>
+                    <p class="desc_module">Наша первая техническая задача - проработать шаги по установке, включая
+                        установку текстового редактора, установку MAMP
+                        или XAMPP (или эквивалента), создание базы данных MySql и написание программы PHP.</p>
+                </div>
+                <div class="program_item col-12 col-sm-6">
+                    <div class="header_module d-flex flex-sm-column">
+                        <p class="number_module">[05]</p>
+                        <h4 class="title_module">[Введение в PHP]</h4>
+                    </div>
+                    <p class="desc_module">Мы начинаем изучать PHP.</p>
+                </div>
+                <div class="program_item col-12 col-sm-6">
+                    <div class="header_module d-flex flex-sm-column">
+                        <p class="number_module">[06]</p>
+                        <h4 class="title_module">[Массивы PHP]</h4>
+                    </div>
+                    <p class="desc_module">Мы рассмотрим уникальные аспекты использования массивов в языке PHP.</p>
+                </div>
+                <div class="program_item col-12 col-sm-6">
+                    <div class="header_module d-flex flex-sm-column">
+                        <p class="number_module">[07]</p>
+                        <h4 class="title_module">[Функции PHP]</h4>
+                    </div>
+                    <p class="desc_module">Мы рассмотрим уникальные аспекты функций в PHP.</p>
+                </div>
+                <div class="program_item col-12 col-sm-6">
+                    <div class="header_module d-flex flex-sm-column">
+                        <p class="number_module">[08]</p>
+                        <h4 class="title_module">[PHP и HTML-формы]</h4>
+                    </div>
+                    <p class="desc_module">Мы рассмотрим, как создаются и обрабатываются HTML-формы в языке PHP.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="try_now" id="registration">
+        <div class="container container_try_now">
+            <h2 class="title_section">Готовы попробовать прямо сейчас?</h2>
+            <p class="text_section">Оставьте заявку, и мы расскажем, как пройти бесплатные курсы профессии</p>
+            <button type="button" class="btn btn-primary register_course_btn" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Хочу попробовать!
+            </button>
+        </div>
+    </section>
+    <section class="section reviews_section" id="reviews">
+        <div class="container container_reviews_section">
+            <h2 class="title_section">Почему люди выбирают для развития карьеры Appphpcourse</h2>
+            <div class="reviews_box row g-3 mt-4 align-items-stretch">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="reviews_item">
+                        <div class="title_box d-flex align-items-center">
+                            <img class="photo" src="./assets/img/Felipe_Moitta.png" alt="">
+                            <div>
+                                <h5 class="name">Felipe M.</h5>
+                                <p>Учащийся с 2018</p>
+                            </div>
+                        </div>
+                        <p class="desc mt-3">'Мне очень понравился гибкий график курсов. Я могу подстроить обучение под
+                            свое
+                            расписание и
+                            настроение.'</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="reviews_item">
+                        <div class="title_box d-flex align-items-center">
+                            <img class="photo" src="./assets/img/Jennifer_John.png" alt="">
+                            <div>
+                                <h5 class="name">Jennifer J.</h5>
+                                <p>Учащийся с 2020</p>
+                            </div>
+                        </div>
+                        <p class="desc mt-3">''Новые идеи и навыки помогли мне реализовать проект на работе.'</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="reviews_item">
+                        <div class="title_box d-flex align-items-center">
+                            <img class="photo" src="./assets/img/Larry_Tao_Wang_1.png" alt="">
+                            <div>
+                                <h5 class="name">Larry W.</h5>
+                                <p>Учащийся с 2021</p>
+                            </div>
+                        </div>
+                        <p class="desc mt-3">''Именно на Appphpcourse я нахожу курсы, которых нет в моем университете.'
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="reviews_item">
+                        <div class="title_box d-flex align-items-center">
+                            <img class="photo" src="./assets/img/Chaitanya_Anand.png" alt="">
+                            <div>
+                                <h5 class="name">Chaitanya A.</h5>
+                                <p>Учащийся с 2018</p>
+                            </div>
+                        </div>
+                        <p class="desc mt-3">''Учеба — это нечто большее, чем просто повышение квалификации.
+                            Appphpcourse не
+                            ставит никаких границ для обучения.'</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section_faq" id="faq">
+        <div class="container container_section_faq">
+            <h2 class="title_section">Часто задаваемые вопросы</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Когда я получу доступ к лекциям и заданиям?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Доступ к лекциям и заданиям предоставляется в зависимости от типа регистрации. Если вы
+                                проходите курс в режиме
+                                слушателя, то получите бесплатный доступ к большинству материалов курса. Чтобы открыть
+                                оцениваемые задания и возможность
+                                получить сертификат, необходимо будет приобрести прохождение с сертификатом. Это можно
+                                сделать во время прохождения в
+                                режиме слушателя или после него. Если вы не видите варианта 'Режим слушателя'.</p>
+                            <ul>
+                                <li>Курс может не предлагаться в режиме слушателя. Попробуйте бесплатную пробную версию
+                                    или подайте заявку на финансовую
+                                    помощь.</li>
+                                <li>Курс предлагаться в режиме 'Полный курс, без сертификата'. В нем можно просматривать
+                                    все материалы, выполнять
+                                    обязательные задания и получить итоговую оценку. Приобрести дополнительно
+                                    прохождение с сертификатом в таком случае
+                                    нельзя.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Что я получу, оформив подписку на специализацию?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Записавшись на курс, вы получите доступ ко всем курсам в специализации, а также
+                                возможность получить сертификат о его
+                                прохождении. После успешного прохождения курса на странице ваших достижений появится
+                                электронный сертификат. Оттуда его
+                                можно распечатать или прикрепить к профилю LinkedIn. Просто ознакомиться с содержанием
+                                курса можно бесплатно.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Можно ли получить финансовую помощь?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Да. В некоторых программах обучения вы можете подать заявку на получение финансовой
+                                помощи или стипендии, если не можете
+                                оплатить регистрационный взнос. Если для выбранной вами программы предлагается такая
+                                возможность, вы увидите ссылку для
+                                подачи заявки на странице описания.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefoure" aria-expanded="false" aria-controls="collapseThree">
+                            Какое программное обеспечение потребуется?
+                        </button>
+                    </h2>
+                    <div id="collapsefoure" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Все программное обеспечение, используемое в данном курсе, является бесплатным и с
+                                открытым исходным кодом и может быть
+                                установлено на компьютерах под управлением Windows, Macintosh или Linux.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                            Есть ли учебник?
+                        </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Да - учебник "The Missing Link: Введение в веб-разработку и программирование" можно
+                                свободно скачать в форматах PDF и
+                                ePub, а при желании можно приобрести печатные копии.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="doubt_box try_now">
+        <div class="container container_try_now d-flex align-items-center flex-md-row justify-content-between">
+            <div>
+                <h2 class="title_section">Сомневаетесь в выборе?</h2>
+                <p class="test_section">Выслушаем, порекомендуем или отговорим от обучения</p>
+            </div>
+            <button type="button" class="align-self-center align-self-md-end btn btn-primary register_course_btn"
+                data-bs-toggle="modal" data-bs-target="#exampleModa2">
+                Получить консультацию
+            </button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div
+            class="container container_footer d-flex flex-column flex-sm-row flex-md-column flex-lg-row align-items-lg-end justify-content-between">
+            <h1 class="logo m-0">
+                <a href="#">Appphpcourse</a>
+            </h1>
+            <ul class="menu_footer d-flex flex-column m-0 flex-md-row mt-3 mt-sm-0 mt-md-3 m-lg-0">
+                <li><a href="#about">О проекте</a></li>
+                <li><a href="#program_course">Программа курса</a></li>
+                <li><a href="#registration">Регистрация</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#faq">Часто задаваемые вопросы</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="modal fade modal_register_course " id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <form action="#">
+                    <div class="contetn_form">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Запишитесь на консультацию</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Мы сориентируем в направлениях и языках разработки. Подскажем, с чего начать, чтобы
+                                проверить интерес к
+                                программированию
+                                до покупки программы
+                            </p>
+                            <div class="input_box">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="email" placeholder="Электронная почта">
+                                <input type="tel" placeholder="Номер телефона">
+                            </div>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <button class="btn btn_senf_form btn-primary">Записатся</button>
+                            <div class="accept_box">
+                                <div>
+                                    <label>
+                                        <input type="checkbox">
+                                        Принять
+                                    </label>
+                                    <a href="./index_politica.html">Политика конфиденциальности</a>
+                                </div>
+                                <div>
+                                    <label>
+                                        <input type="checkbox">
+                                        Принять
+                                    </label>
+                                    <a href="./index_uslovia.html">Условия и положения</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade modal_register_course " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <form action="#">
+                    <div class="contetn_form">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Оставьте заявку
+                                на обучение профессии</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="input_box">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="email" placeholder="Электронная почта">
+                                <input type="tel" placeholder="Номер телефона">
+                            </div>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <button class="btn btn_senf_form btn-primary">Записатся</button>
+                            <div class="accept_box">
+                                <div>
+                                    <label>
+                                        <input type="checkbox">
+                                        Принять
+                                    </label>
+                                    <a href="./index_politica.html">Политика конфиденциальности</a>
+                                </div>
+                                <div>
+                                    <label>
+                                        <input type="checkbox">
+                                        Принять
+                                    </label>
+                                    <a href="./index_uslovia.html">Условия и положения</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="cookies_accept">
+        <div class="container">
+            <p class="text">Мы используем файлы cookie, чтобы улучшить ваш просмотр, показывать персонализированную рекламу
+                или
+                контент, а также анализировать наш трафик. Нажимая «Принять все», вы соглашаетесь на
+                использование
+                нами файлов cookie.</p>
+                <button class="btn_accept">Принять</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
